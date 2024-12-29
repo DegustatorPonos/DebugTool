@@ -9,5 +9,12 @@ Universal debug tool I use in my projects development. It boots a local HTTP ser
 ```
   
 ## Supported terminals
-- Windows 11 **(windows 10 and lower does not support escape codes)**
+- Windows 11+ **(windows 10 and lower does not support escape codes)**
 - Supposedly any UNIX terminal
+
+# Usage
+Run the app from the command line or from .exe of windows
+|Flag|Meaning| 
+|----|-------|
+|\-h | Show help|
+|\-p | Port|
