@@ -13,7 +13,9 @@ const (
 )
 
 func main() {
-	//http.HandleFunc("/", HomeController)
+	ParseFlags()
+	fmt.Println(GetPort())
+
 	http.HandleFunc("/Info", PrintInfo)
 	http.HandleFunc("/Warn", PrintWarning)
 	http.HandleFunc("/Err", PrintError)
