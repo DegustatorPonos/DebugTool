@@ -14,7 +14,6 @@ const (
 
 func main() {
 	ParseFlags()
-	fmt.Println(GetPort())
 
 	http.HandleFunc("/Info", PrintInfo)
 	http.HandleFunc("/Warn", PrintWarning)
